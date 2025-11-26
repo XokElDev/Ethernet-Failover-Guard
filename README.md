@@ -34,7 +34,9 @@ Master Volume Override: Temporarily maximizes alert volume to ensure you hear th
 Open monitor_red.ps1 with a text editor (like Notepad or VS Code) and update the adapter names at the top of the file to match your system:
 
 $EthernetAdapterName = "Ethernet"  # Change to your adapter name
+
 $WifiAdapterName = "Wi-Fi"         # Change to your Wi-Fi adapter name
+
 $MinimumSpeed = 1000               # Threshold in Mbps (1000 = 1Gbps)
 
 
